@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLSaKgSvvGFn1Q4ihBRPK+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/renzieee/Information-For-My-Technology/blob/main/CHAPTER%202/Chapter2E1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1EgocwuQ6nHH",
+        "outputId": "cf0ac34c-ff0f-4635-d712-e9585e8a0ca0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "how are you\n",
+            "im fine thank you\n"
+          ]
+        }
+      ],
+      "source": [
+        "a= 'how are you'\n",
+        "print(a)\n",
+        "b= 'im fine thank you'\n",
+        "print(b)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "yxxwVmzX7Tuj"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
