@@ -1,0 +1,31 @@
+.menu {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.menua a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.menu a.active {
+    background-color: darkcyan;
+    color: white;
+}
+
+footer {
+    margin-top: 500px;
+}
+
+body {
+    background-color: blanchedalmond;
+}

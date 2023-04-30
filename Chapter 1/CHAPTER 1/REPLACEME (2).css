@@ -1,0 +1,20 @@
+h1{
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.black{ 
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.green{
+    font-size: 18px;
+    color: green;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

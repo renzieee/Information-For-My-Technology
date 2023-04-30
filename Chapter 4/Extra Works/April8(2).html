@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April8(2)</title>
+</head>
+<body>
+    
+    <br/>
+
+    Q1. What does HTML stand for?<br>
+    <input type="radio" name="question1" id="right1">Hypertext Markup Language <br>
+    <input type="radio" name="question1">Hyper Text Madeup Language <br>
+    <input type="radio" name="question1">HyperTextture Markup Language <br>
+    <input type="radio" name="question1">Hyper Texture Madeup Language <br>
+
+    Q2. What does CSS stands for?<br>
+    <input type="radio" name="question2"> Control Style Sheets <br>
+    <input type="radio" name="question2"> Control Styling Structure Sheets <br>
+    <input type="radio" name="question2" id="right2">Cascading Style Sheets <br>
+    <input type="radio" name="question2"> Cascading Structure Sheets <br>
+
+    Q3. What does JS stands for? <br>
+    <input type="radio" name="quetion3">jquery <br>
+    <input type="radio" name="question3" id="right3">JavaScript <br>
+    <input type="radio" name="quetion3">JScripts<br>
+    <input type="radio" name="quetion3">JqueryScripts<br>
+    <br /><br/>
+    <input type="submit" name="submit" value="submit" onClick="result()">
+
+    <script type="text/javascript">
+        function result() {
+            var score = 0;
+            if (document.getElementById('right1').checked) {
+                score++;
+            }
+            if(document.getElementById('right2').checked) {
+
+            }
+            if (document.getElementById('right3').checked) {
+
+            }
+
+            if (score == 3) {
+                document.write("Your score is: " + score + " Excellent 3/3");
+            }
+            if (score == 2) {
+                document.write("Your score is: " + score + " Good 2/3");
+            }
+            if (score == 1) {
+                document.write("Your score is: " + score + " Try better next time! 1/3");
+            }
+            if(score == 0) {
+                document.write("Your score is: " + score + "Needs more learning 0/3")
+            }
+        }
+    </script>
+</body>
+</html>
